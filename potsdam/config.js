@@ -1,7 +1,39 @@
 const Config = {
     wfsImgPath: "./resources/img/",
     namedProjections: [
-        ["EPSG:25832", "+title=ETRS89/UTM 32N +proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"]
+        ["EPSG:4326", "+proj=longlat +datum=WGS84 +no_defs"],
+        ["EPSG:25832", "+title=ETRS89/UTM 32N +proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"],
+        ["EPSG:25833", "+title=ETRS89/UTM 33N +proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"]
+    ],
+    coordinateTransformSourceCrs: [
+        "25833",
+        "25832",
+        "4326",
+        "4258",
+        "3034",
+        "3035",
+        "3044",
+        "3045",
+        "3857",
+        "4839",
+        "5650",
+        "31468",
+        "31469"
+    ],
+    coordinateTransformTargetCrs: [
+        "25833",
+        "25832",
+        "4326",
+        "4258",
+        "3034",
+        "3035",
+        "3044",
+        "3045",
+        "3857",
+        "4839",
+        "5650",
+        "31468",
+        "31469"
     ],
     footer: {
         urls: [
