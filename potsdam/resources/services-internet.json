@@ -3,7 +3,6 @@
       "id" : "453",
       "name": "WebAtlasDE BB/BE Halbton und Topplus",
       "url": "https://isk.geobasis-bb.de/mapproxy/webatlasde_topplus/service/wms?",
-      "legendURL": "https://isk.geobasis-bb.de/mapproxy/watpo/service/wms?format=image%2Fpng&layer=webatlas&sld_version=1.1.0&request=GetLegendGraphic&service=WMS&version=1.1.1&styles=",
       "typ": "WMS",
       "layers": "topplus_farbe,webatlas_farbe",
       "format": "image/png",
@@ -29,5 +28,51 @@
               ]
           }
       ]
-   }
+   },
+   {
+        "id" : "11111",
+        "name" : "Schulen",
+        "url" : "data/schulen.geojson",
+        "typ" : "GeoJSON",
+        "gfiAttributes" : {
+            "Schulnum 1": "Schulnummer",
+            "Schulname": "Name",
+            "Standort": "Standort",
+            "Schulform": "Schulform",
+            "Strasse": "Straße",
+            "Plz": "Postleitzahl",
+            "Ort": "Ort",
+            "Trager": "Träger",
+            "Sozialraum": "Sozialraum",
+            "Planungsraum": "Planungsraum",
+            "Status": "Status"
+        },
+        "layerAttribution" : "Landeshauptstadt Potsdam",
+        "legendURL" : "",
+        "gfiTheme": "default"
+    },
+    {
+         "id" : "11112",
+         "name" : "Reisezeit vom Hauptbahnhof (Auto)",
+         "url" : "data/isochrones-sorted.geojson",
+         "typ" : "GeoJSON",
+         "gfiAttributes" : {
+             "value": "Reisezeit in Sek."
+         },
+         "layerAttribution" : "OpenRouteService",
+         "legendURL" : "",
+         "gfiTheme": "default"
+     },
+     {
+          "id" : "11113",
+          "name" : "Reisezeit vom Hauptbahnhof (Fahrrad)",
+          "url" : "data/isochrones-bike-sorted.geojson",
+          "typ" : "GeoJSON",
+          "gfiAttributes" : {
+              "value": "Reisezeit in Sek."
+          },
+          "layerAttribution" : "OpenRouteService",
+          "legendURL" : "",
+          "gfiTheme": "default"
+      }
 ]

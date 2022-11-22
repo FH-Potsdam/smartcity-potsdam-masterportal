@@ -39,9 +39,9 @@ const Config = {
         urls: [
             {
                 "bezeichnung": "common:modules.footer.designation",
-                "url": "https://geoinfo.hamburg.de/",
-                "alias": "Landesbetrieb Geoinformation und Vermessung",
-                "alias_mobil": "LGV"
+                "url": "https://idl.fh-potsdam.de/",
+                "alias": "Landeshauptstadt Potsdam & Fachhochschule Potsdam",
+                "alias_mobil": "LHP & FHP"
             }
         ],
         showVersion: true

@@ -29,7 +29,7 @@
 					6100000
 			],
 			"epsg": "EPSG:25833",
-      "resolution": 280
+      "startZoomLevel": 3
 		},
 		"menu": {
 			"tree": {
@@ -60,7 +60,8 @@
 				}
 			},
 			"legend": {
-				"name": "Legende"
+				"name": "Legende",
+				"showLegend": true
 			},
 			"info": {
 				"name": "Informationen",
@@ -88,12 +89,33 @@
 			"Layer": [
         {
           "id": "453",
-          "visibility": true
+          "visibility": true,
+					"legend": false
         }
 			]
 		},
 		"Fachdaten": {
 			"Layer": [
+				{
+          "id": "11111",
+					"styleId":"schulen",
+          "visibility": false,
+					"clusterDistance": 50
+        },
+				{
+          "id": "11112",
+					"styleId":"isochrones",
+          "visibility": false,
+					"transparency": 20,
+					"legend": "./data/isolegend.png"
+        },
+				{
+          "id": "11113",
+					"styleId":"isochrones",
+          "visibility": false,
+					"transparency": 20,
+					"legend": "./data/isolegend-bike.png"
+        }
 			]
 		}
 	}

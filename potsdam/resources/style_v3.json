@@ -1,5 +1,139 @@
 [
   {
+    "styleId": "schulen",
+    "rules": [
+      {
+        "style": {
+          "type": "icon",
+          "imageScale" : "0.8",
+          "imageWidth": 40,
+          "imageHeight": 40,
+          "clusterImageName": "schule.png",
+          "imageName" : "schule.png",
+          "clusterType": "icon",
+          "clusterTextOffsetX" : 35,
+          "clusterTextOffsetY" : 10,
+          "clusterTextFillColor" : [0,0,0, 1]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "isochrones",
+    "rules": [
+      {
+        "conditions": {
+          "properties": {
+            "value": 180
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#002051"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 360
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#0d346b"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 540
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#33486e"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 720
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#575c6e"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 900
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#737172"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 1080
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#8b8677"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 1260
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#a49d78"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 1440
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#c3b56d"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 1620
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#e6cf59"
+        }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "value": 1800
+          }
+        },
+        "style": {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonFillColor": "#fdea45"
+        }
+      }
+    ]
+  },
+  {
     "styleId": "location_eventlotse",
     "rules":
     [
