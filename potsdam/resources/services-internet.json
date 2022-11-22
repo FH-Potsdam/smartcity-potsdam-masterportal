@@ -10,6 +10,7 @@
       "singleTile": false,
       "transparent": false,
       "tilesize": "512",
+      "layerAttribution" : "Geobasis Brandenburg",
       "minScale": "0",
       "maxScale": "10001000000",
       "visibility": false,
@@ -28,6 +29,37 @@
               ]
           }
       ]
+   },
+   {
+        "id": "454",
+        "layerAttribution" : "Geobasis Brandenburg",
+        "name": "WebAtlasDE BB/BE Grau und Topplus",
+        "url": "https://isk.geobasis-bb.de/mapproxy/webatlasde_topplus/service/wms?",
+        "typ": "WMS",
+        "layers": "topplus_grau,webatlas_grau",
+        "format": "image/png",
+        "version": "1.3.0",
+        "singleTile": false,
+        "transparent": false,
+        "tilesize": "512",
+        "minScale": "0",
+        "maxScale": "10001000000",
+        "visibility": false,
+        "gfiAttributes": "ignore",
+        "isBaseLayer": true,
+        "datasets": [
+            {
+                "md_id": "9ecdc361-93c7-43d4-b59b-022e0823e9f4"
+            }
+        ],
+        "externalInfo": [
+            {
+                "title": "Diensteanbieter",
+                "urls": [
+                    "https://geobasis-bb.de/"
+                ]
+            }
+        ]
    },
    {
         "id" : "11111",
