@@ -62,7 +62,7 @@
         ]
    },
    {
-        "id" : "11111",
+        "id" : "schulen",
         "name" : "Schulen",
         "url" : "data/schulen.geojson",
         "typ" : "GeoJSON",
@@ -106,5 +106,83 @@
           "layerAttribution" : "OpenRouteService",
           "legendURL" : "",
           "gfiTheme": "default"
-      }
+      },
+      {
+           "id" : "krampnitz-gebaeude",
+           "name" : "Krampnitz - Gebäude",
+           "url" : "data/krampnitz_gebaeude.geojson",
+           "typ" : "GeoJSON",
+           "gfiAttributes" : {},
+           "layerAttribution" : "ProPotsdam",
+           "legendURL" : "",
+           "gfiTheme": "default"
+       },
+       {
+            "id" : "krampnitz-freiflaechen",
+            "name" : "Krampnitz - Freiflächen",
+            "url" : "data/krampnitz_freiflaechen.geojson",
+            "typ" : "GeoJSON",
+            "gfiAttributes" : {},
+            "layerAttribution" : "ProPotsdam",
+            "legendURL" : "",
+            "gfiTheme": "default"
+        },
+        {
+             "id" : "krampnitz-erschliessung",
+             "name" : "Krampnitz - Erschließung",
+             "url" : "data/krampnitz_erschliessung.geojson",
+             "typ" : "GeoJSON",
+             "gfiAttributes" : {},
+             "layerAttribution" : "ProPotsdam",
+             "legendURL" : "",
+             "gfiTheme": "default"
+         },
+         {
+              "id" : "potsdam-strassenreinigung",
+              "name" : "Straßenreinigung",
+              "url" : "data/strassenreinigung.geojson",
+              "typ" : "GeoJSON",
+              "gfiAttributes" : {
+                "strassenna": "Straßenname",
+                "reinigungs": "Reinigungsgruppe"
+              },
+              "layerAttribution" : "Stadt Potsdam",
+              "legendURL" : "",
+              "gfiTheme": "default"
+          },
+          {
+               "id" : "potsdam-winterdienst",
+               "name" : "Winterdienst",
+               "url" : "data/winterdienst.geojson",
+               "typ" : "GeoJSON",
+               "gfiAttributes" : {
+                 "strassenna": "Straßenname"
+               },
+               "layerAttribution" : "Stadt Potsdam",
+               "legendURL" : "",
+               "gfiTheme": "default"
+           },
+           {
+                "id" : "potsdam-touristische-radrouten",
+                "name" : "Touristische Radrouten",
+                "url" : "data/touristische-radrouten.geojson",
+                "typ" : "GeoJSON",
+                "gfiAttributes" : {
+                  "route": "Route",
+                  "shape_len": "Länge (m)"
+                },
+                "layerAttribution" : "Stadt Potsdam",
+                "legendURL" : "",
+                "gfiTheme": "default"
+            },
+            {
+                 "id" : "potsdam-papierkoerbe",
+                 "name" : "Papierkörbe",
+                 "url" : "data/papierkoerbe.geojson",
+                 "typ" : "GeoJSON",
+                 "gfiAttributes" : {},
+                 "layerAttribution" : "Stadt Potsdam",
+                 "legendURL" : "",
+                 "gfiTheme": "default"
+             }
 ]

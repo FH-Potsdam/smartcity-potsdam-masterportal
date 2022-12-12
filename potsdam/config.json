@@ -102,10 +102,18 @@
 		"Fachdaten": {
 			"Layer": [
 				{
-          "id": "11111",
+          "id": "schulen",
 					"styleId":"schulen",
           "visibility": false,
-					"clusterDistance": 50
+					"clusterDistance": 50,
+					"gfi": {
+						"active": true,
+						"highlightVectorRules": {
+							"image": {
+								"scale": 10
+							}
+						}
+					}
         },
 				{
           "id": "11112",
@@ -120,6 +128,49 @@
           "visibility": false,
 					"transparency": 20,
 					"legend": "./data/isolegend-bike.png"
+        },
+				{
+          "id": "krampnitz-gebaeude",
+					"styleId":"krampnitz-gebaeude",
+          "visibility": false,
+					"transparency": 0
+        },
+				{
+          "id": "krampnitz-freiflaechen",
+					"styleId":"krampnitz-freiflaechen",
+          "visibility": false,
+					"transparency": 50
+        },
+				{
+          "id": "krampnitz-erschliessung",
+					"styleId":"krampnitz-erschliessung",
+          "visibility": false,
+					"transparency": 50
+        },
+				{
+          "id": "potsdam-strassenreinigung",
+					"styleId":"potsdam-linie-orange",
+          "visibility": false,
+					"transparency": 0
+        },
+				{
+          "id": "potsdam-winterdienst",
+					"styleId":"potsdam-linie-orange",
+          "visibility": false,
+					"transparency": 0
+        },
+				{
+          "id": "potsdam-touristische-radrouten",
+					"styleId":"potsdam-linie-orange",
+          "visibility": false,
+					"transparency": 0
+        },
+				{
+          "id": "potsdam-papierkoerbe",
+					"styleId":"potsdam-papierkoerbe",
+          "visibility": false,
+					"transparency": 0,
+					"clusterDistance": 50
         }
 			]
 		}

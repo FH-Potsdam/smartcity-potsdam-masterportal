@@ -5,16 +5,93 @@
       {
         "style": {
           "type": "icon",
-          "imageScale" : "0.8",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "clusterImageName": "schule.png",
-          "imageName" : "schule.png",
+          "imageScale" : "1",
+          "imageWidth": 20,
+          "imageHeight": 20,
+          "clusterImageName": "circle-white.png",
+          "imageName" : "school.png",
           "clusterType": "icon",
-          "clusterTextOffsetX" : 35,
-          "clusterTextOffsetY" : 10,
+          "clusterTextOffsetX" : 1,
+          "clusterTextOffsetY" : 1,
           "clusterTextFillColor" : [0,0,0, 1]
         }
+      }
+    ]
+  },
+  {
+    "styleId": "potsdam-papierkoerbe",
+    "rules": [
+      {
+        "style": {
+          "type": "icon",
+          "imageScale" : "1",
+          "imageWidth": 20,
+          "imageHeight": 20,
+          "clusterImageWidth": 20,
+          "clusterImageHeight": 20,
+          "clusterImageName": "circle-white.png",
+          "imageName" : "papierkorb.png",
+          "clusterType": "icon",
+          "clusterTextAlign": "center",
+          "clusterTextOffsetX" : 1,
+          "clusterTextOffsetY" : 1,
+          "clusterTextFillColor" : [0,0,0, 1]
+        }
+      }
+    ]
+  },
+  {
+    "styleId": "potsdam-linie-orange",
+    "rules":
+    [
+      {
+        "style":
+          {
+          "lineStrokeColor" : [207, 126, 12, 1],
+          "lineStrokeWidth" : 3
+          }
+      }
+    ]
+  },
+  {
+    "styleId": "krampnitz-gebaeude",
+    "rules": [
+      {
+        "style":
+          {
+          "polygonStrokeColor": [0, 0, 0, 1],
+          "polygonStrokeWidth": 2,
+          "polygonFillColor": [255, 255, 255, 1],
+          "polygonStrokeDash": [0]
+          }
+      }
+    ]
+  },
+  {
+    "styleId": "krampnitz-freiflaechen",
+    "rules": [
+      {
+        "style":
+          {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonStrokeWidth": 2,
+          "polygonFillColor": [62, 183, 89, 1],
+          "polygonStrokeDash": [0]
+          }
+      }
+    ]
+  },
+  {
+    "styleId": "krampnitz-erschliessung",
+    "rules": [
+      {
+        "style":
+          {
+          "polygonStrokeColor": [0, 0, 0, 0],
+          "polygonStrokeWidth": 2,
+          "polygonFillColor": [253, 191, 111, 1],
+          "polygonStrokeDash": [0]
+          }
       }
     ]
   },
