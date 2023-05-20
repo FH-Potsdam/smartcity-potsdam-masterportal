@@ -102,6 +102,10 @@
 		"Fachdaten": {
 			"Layer": [
 				{
+					"id": "lichtsignalanlagen_wfs",
+					"visibility": false
+				},
+				{
           "id": "schulen",
 					"styleId":"schulen",
           "visibility": false,

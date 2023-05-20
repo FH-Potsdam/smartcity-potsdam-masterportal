@@ -1,5 +1,35 @@
 [
-  {
+    {
+        "id": "lichtsignalanlagen_wfs",
+        "name": "Lichtsignalanlagen",
+        "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lsa",
+        "typ": "WFS",
+        "featureType": "fis:s_lsa",
+        "outputFormat": "XML",
+        "version": "2.0.0",
+        "searchField": ["name", "kname"],
+        "gfiAttributes": {
+          "standort": "Standort",
+          "lsa_id": "LSA-Nummer"
+        },
+        "gfiTheme": "default",
+        "gfiComplex": "false",
+        "minScale": 0,
+        "maxScale": 75000,
+        "layerAttribution": "Quelle:&nbsp;<a href=\"https://fbinter.stadt-berlin.de/fb/index.jsp\" target=\"_blank\">FIS-Broker</a>",
+        "hitTolerance": 0,
+        "crs": "EPSG:25833",
+        "epsg": "EPSG:25833",
+        "coordinateSystem": "EPSG:25833",
+        "datasets": [
+          {
+            "md_id": "lichtsignalanlagen",
+            "md_name": "Lichtsignalanlagen",
+            "csw_url": "https://api.viz.berlin.de/csw"
+          }
+        ]
+    },
+    {
       "id" : "453",
       "name": "WebAtlasDE BB/BE Halbton und Topplus",
       "url": "https://isk.geobasis-bb.de/mapproxy/webatlasde_topplus/service/wms?",
